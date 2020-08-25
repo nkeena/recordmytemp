@@ -20,7 +20,7 @@
           <div class="lg:grid lg:grid-cols-12 lg:gap-8">
             <div class="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
               <div>
-                <a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html" target="_blank" rel="noreferrer" class="inline-flex items-center text-blue-700 bg-blue-200 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-blue-800">
+                <a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html" target="_blank" rel="noreferrer" class="inline-flex items-center text-blue-800 bg-blue-200 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-blue-900">
                   <span class="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-pink-600 rounded-full">COVID-19</span>
                   <span class="ml-4 text-sm leading-5">Symptoms to watch for</span>
                   <svg class="ml-2 w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">

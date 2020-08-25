@@ -46,7 +46,7 @@
             </main>
         
         
-            <footer class="py-12 text-xs text-blue-400 text-center leading-5">
+            <footer class="py-12 text-xs text-blue-800 text-center leading-5">
                 @auth
                     Current log: <a href="{{ route('logs.index') }}" class="text-blue-600 hover:text-blue-500">
                         {{ optional(auth()->user()->currentLog)->title }}

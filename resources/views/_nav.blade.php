@@ -2,7 +2,7 @@
     <div class="flex items-center flex-1">
       <div class="flex items-center w-full md:w-auto space-x-2">
         <span class="text-2xl">&#129298;</span>
-        <span class="text-blue-900 font-bold">Record<span class="text-blue-700">My</span><span class="text-pink-600">Temp</span></span>
+        <span class="text-blue-900 font-bold">RecordMyTemp</span>
       </div>
     </div>
     <div class="md:flex">
