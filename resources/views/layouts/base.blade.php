@@ -11,7 +11,13 @@
         @endif
 		
         <!-- Favicon -->
-		<link rel="shortcut icon" href="{{ url(asset('favicon.ico')) }}">
+        <link rel="shortcut icon" href="{{ url(asset('favicon.ico')) }}">
+        <link rel="icon" href="{{ url(asset('favicon-16x16.png')) }}" sizes="16x16" />
+        <link rel="icon" href="{{ url(asset('favicon-32x32.png')) }}" sizes="32x32" />
+        <link rel="icon" href="{{ url(asset('android-chrome-192x192.png')) }}" sizes="192x192" />
+        <link rel="icon" href="{{ url(asset('android-chrome-512x512')) }}" sizes="512x512" />
+        <link rel="apple-touch-icon" href="{{ url(asset('apple-touch-icon.png')) }}" />
+        <meta name="msapplication-TileImage" content="{{ url(asset('android-chrome-512x512')) }}" />
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
