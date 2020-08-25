@@ -9,6 +9,8 @@
         @else
             <title>{{ config('app.name') }}</title>
         @endif
+
+        <meta name="description" content="A free online temperature tracker to help keep your space safe. Works on any device. We'll even notify you of high temperatures or missed recordings." />
 		
         <!-- Favicon -->
         <link rel="shortcut icon" href="{{ url(asset('favicon.ico')) }}">
