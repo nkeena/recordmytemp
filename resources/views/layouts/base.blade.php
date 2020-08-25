@@ -21,8 +21,17 @@
         <link rel="apple-touch-icon" href="{{ url(asset('apple-touch-icon.png')) }}" />
         <meta name="msapplication-TileImage" content="{{ url(asset('android-chrome-512x512')) }}" />
 
+        <!-- Twitter and Open Graph tags -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@neilkeena">
+        <meta name="twitter:creator" content="@neilkeena">
+        <meta property="og:url" content="https://recordmytemp.com" />
+        <meta property="og:title" content="Free Temperature Tracker" />
+        <meta property="og:description" content="A free online temperature tracker to help keep your space safe. Works on any device. We'll even notify you of high temperatures or missed recordings." />
+        <meta property="og:image" content="{{ url(asset('android-chrome-512x512')) }}"/>
+
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family =Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ url(mix('css/app.css')) }}">
