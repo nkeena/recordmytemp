@@ -17,9 +17,9 @@
         <link rel="icon" href="{{ url(asset('favicon-16x16.png')) }}" sizes="16x16" />
         <link rel="icon" href="{{ url(asset('favicon-32x32.png')) }}" sizes="32x32" />
         <link rel="icon" href="{{ url(asset('android-chrome-192x192.png')) }}" sizes="192x192" />
-        <link rel="icon" href="{{ url(asset('android-chrome-512x512')) }}" sizes="512x512" />
+        <link rel="icon" href="{{ url(asset('android-chrome-512x512.png')) }}" sizes="512x512" />
         <link rel="apple-touch-icon" href="{{ url(asset('apple-touch-icon.png')) }}" />
-        <meta name="msapplication-TileImage" content="{{ url(asset('android-chrome-512x512')) }}" />
+        <meta name="msapplication-TileImage" content="{{ url(asset('android-chrome-512x512.png')) }}" />
 
         <!-- Twitter and Open Graph tags -->
         <meta name="twitter:card" content="summary">
@@ -28,7 +28,7 @@
         <meta property="og:url" content="https://recordmytemp.com" />
         <meta property="og:title" content="Free Temperature Tracker" />
         <meta property="og:description" content="A free online temperature tracker to help keep your space safe. Works on any device. We'll even notify you of high temperatures or missed recordings." />
-        <meta property="og:image" content="{{ url(asset('android-chrome-512x512')) }}"/>
+        <meta property="og:image" content="{{ url(asset('android-chrome-512x512.png')) }}"/>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family =Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
