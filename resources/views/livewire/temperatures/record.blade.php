@@ -46,7 +46,7 @@
                         <div class="absolute inset-y-0 right-0 flex items-center">
                             <select wire:model="scale" x-model="scale" aria-label="Currency" class="text-3xl text-blue-600 font-extrabold form-select h-full py-0 pl-2 pr-16 border-transparent bg-transparent">
                               <option value="F"><sup>&#176;</sup>F</option>
-                              <option value="C"><sup>&#176;</sup>C</option>
+                              {{-- <option value="C"><sup>&#176;</sup>C</option> --}}
                             </select>
                         </div>
                     </div>
