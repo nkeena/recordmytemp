@@ -3,7 +3,7 @@
 @section('title', 'Free Temperature Tracker')
 
 @section('content')
-<div class="bg-blue-50 overflow-hidden">
+<div class="bg-blue-50 relative">
     <div class="hidden sm:block sm:absolute sm:inset-0">
       <svg class="absolute bottom-0 right-0 transform translate-x-1/2 mb-48 text-blue-200 lg:top-0 lg:mt-28 lg:mb-0 xl:transform-none xl:translate-x-0" width="364" height="384" viewBox="0 0 364 384" fill="none">
         <defs>
@@ -15,7 +15,7 @@
       </svg>
     </div>
     <div class="relative">
-      <main class="mt-8 sm:mt-16 md:mt-20 lg:mt-24">
+      <div class="mt-8 sm:mt-16 md:mt-20 lg:mt-24">
         <div class="mx-auto max-w-screen-xl">
           <div class="lg:grid lg:grid-cols-12 lg:gap-8">
             <div class="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
@@ -54,7 +54,7 @@
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </div>
-  </div>
+</div>
 @endsection

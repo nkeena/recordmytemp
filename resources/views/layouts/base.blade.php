@@ -67,7 +67,7 @@
                     <br />
                     <br />
                 @endauth
-                &copy; {{ date('Y') }} Neil Keena. All Rights Reserved.
+                &copy; {{ date('Y') }} Neil Keena. All Rights Reserved. | <a href="/use-of-data" class="hover:underline hover:text-blue-600">Use of Data</a>
             </footer>
         
         </div>
