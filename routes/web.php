@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome')->name('home')->middleware('guest');
 
+Route::view('/use-of-data', 'data-use')->name('data-use');
+
 Route::layout('layouts.auth')->group(function () {
     Route::middleware('guest')->group(function () {
         Route::livewire('login', 'auth.login')
@@ -37,6 +39,8 @@ Route::layout('layouts.auth')->group(function () {
 
         Route::livewire('password/confirm', 'auth.passwords.confirm')
             ->name('password.confirm');
+
+        Route::livewire('profile', 'profile')->name('profile');
 
         Route::livewire('temperatures', 'temperatures.index')
             ->name('temperatures.index')

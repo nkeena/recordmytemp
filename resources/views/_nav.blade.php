@@ -1,9 +1,9 @@
 <nav class="z-10 relative max-w-screen-xl mx-auto flex items-center justify-between px-4 sm:px-6">
     <div class="flex items-center flex-1">
-      <div class="flex items-center w-full md:w-auto space-x-2">
+      <a href="{{ route('home') }}" class="flex items-center w-full md:w-auto space-x-2">
         <span class="text-2xl">&#129298;</span>
         <span class="text-blue-900 font-bold">RecordMyTemp</span>
-      </div>
+      </a>
     </div>
     <div class="md:flex">
       @auth
@@ -34,6 +34,7 @@
               <a href="{{ route('people.index') }}" class="block px-4 py-2 text-sm leading-5 text-blue-700 hover:bg-blue-100 hover:text-blue-900 focus:outline-none focus:bg-blue-100 focus:text-blue-900" role="menuitem">People</a>
               @endif
               <a href="{{ route('logs.index') }}" class="block px-4 py-2 text-sm leading-5 text-blue-700 hover:bg-blue-100 hover:text-blue-900 focus:outline-none focus:bg-blue-100 focus:text-blue-900" role="menuitem">Logs</a>
+              <a href="{{ route('profile') }}" class="block px-4 py-2 text-sm leading-5 text-blue-700 hover:bg-blue-100 hover:text-blue-900 focus:outline-none focus:bg-blue-100 focus:text-blue-900" role="menuitem">Profile</a>
               <form action="{{ route('logout') }}" method="POST">
                 @csrf
                 <button type="submit" class="block w-full text-left px-4 py-2 text-sm leading-5 text-blue-700 hover:bg-blue-100 hover:text-blue-900 focus:outline-none focus:bg-blue-100 focus:text-blue-900" role="menuitem">
